@@ -13,7 +13,7 @@ export default function Question({question,incorrectanswers,correctanswer,getque
         if(answer && answer === correctanswer){
            numOfCorrectAnswers.current = numOfCorrectAnswers.current + 1
         }
-        console.log(answer,correctanswer)
+        
 
     }
     function showresult(){
