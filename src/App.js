@@ -15,7 +15,7 @@ export default function App(){
 
     
         
-    console.log(questionsArray)
+    
 
     const questionObj = React.useMemo(()=>questionsArray.map((q,i) => {
         
@@ -34,7 +34,7 @@ export default function App(){
         if(answer && answer === correctanswer){
            numOfCorrectAnswers.current = numOfCorrectAnswers.current + 1
         }
-        console.log(answer,correctanswer)
+        
 
     }
     function showresult(){
