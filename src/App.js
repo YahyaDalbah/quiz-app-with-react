@@ -15,7 +15,7 @@ export default function App(){
 
     
         
-    console.log(questionsArray)
+    
 
     const questionObj = React.useMemo(()=>questionsArray.map((q,i) => {
         
