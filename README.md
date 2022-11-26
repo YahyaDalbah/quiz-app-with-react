@@ -11,3 +11,5 @@ it contains 4 main files
 3. `question.js`: it's the main code source in this project, the questions are displayed in it from `App.js` , it has all of the functionality written in it like checking the answer and display if answer is correct or no
 
 4. `style.css`: it styles the project. 
+
+### to see the project u can vist: http://yahyadalbah.github.io/quiz-app-with-react
