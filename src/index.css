@@ -8,6 +8,7 @@ body {
     margin: 0;
     background: rgb(245, 247, 251);
     font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
 }
 
 main {
@@ -53,9 +54,6 @@ input[type="radio"] {
     position: absolute;
 }
 
-/* label{
-  cursor: pointer;
-} */
 .answer-btn {
     background: rgb(245, 247, 251);
     border: 0.7px solid #4D5B9E;
@@ -94,12 +92,18 @@ input[type="radio"] {
     background-color: blueviolet;
     transition: all 0.4s ease;
 }
-.play-again-btn{
-    position: absolute;
-    left: 40%;
-    margin-top: -50px;
-}
 .question{
     margin-bottom: 110px;
-
+}
+.checkedDiv{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    padding-bottom: 40px;
+    
+}
+.checkedDiv h1{
+    font-size: 22px;
 }
